@@ -1,0 +1,2175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Agri-Business depuis Zéro — Guide Complet pour Investisseurs Africains 2026</title>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SJQCEGS8SH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-SJQCEGS8SH');
+</script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '806580201822678');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=806580201822678&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Outfit:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Outfit:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/></noscript>
+
+<style>
+:root {
+  --vert:      #1A5C2A;
+  --vert-c:    #2E8044;
+  --vert-p:    #EBF5EE;
+  --or:        #C8860A;
+  --or-c:      #F0A820;
+  --or-p:      #FEF3DC;
+  --terre:     #7B3F1A;
+  --terre-c:   #A0522D;
+  --noir:      #0E1A10;
+  --gris:      #5A6B5E;
+  --gris-c:    #F2F5F2;
+  --blanc:     #FAFDF9;
+  --rouge:     #B83227;
+  --w:         1100px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: var(--blanc);
+  color: var(--noir);
+  overflow-x: hidden;
+}
+
+/* ── TOPBAR ── */
+.topbar {
+  background: var(--noir);
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.85);
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.topbar .dot {
+  width: 8px; height: 8px;
+  background: #4CAF50;
+  border-radius: 50%;
+  animation: blink 1.5s infinite;
+  flex-shrink: 0;
+}
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
+.topbar strong { color: var(--or-c); }
+
+/* ── HERO ── */
+.hero {
+  background: var(--noir);
+  min-height: auto;
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 0% 100%, rgba(26,92,42,0.55) 0%, transparent 55%),
+    radial-gradient(ellipse at 100% 0%, rgba(200,134,10,0.12) 0%, transparent 50%);
+  pointer-events: none;
+}
+.hero-texture {
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(255,255,255,0.012) 0px,
+    rgba(255,255,255,0.012) 1px,
+    transparent 1px,
+    transparent 32px
+  );
+}
+.hero-left {
+  padding: 32px 56px 48px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.hero-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 60px 80px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(200,134,10,0.12);
+  border: 1px solid rgba(200,134,10,0.35);
+  border-radius: 100px;
+  padding: 6px 16px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--or-c);
+  margin-bottom: 14px;
+  animation: fadeUp 0.5s ease forwards;
+}
+
+.hero-title {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(38px, 4.5vw, 62px);
+  font-weight: 900;
+  color: var(--blanc);
+  line-height: 1.08;
+  margin-bottom: 24px;
+  animation: fadeUp 0.5s 0.05s ease forwards;
+}
+.hero-title em {
+  font-style: italic;
+  color: var(--or-c);
+}
+
+.hero-sub {
+  font-size: clamp(15px, 1.6vw, 18px);
+  color: rgba(255,255,255,0.65);
+  line-height: 1.75;
+  font-weight: 400;
+  margin-bottom: 36px;
+  max-width: 520px;
+  animation: fadeUp 0.5s 0.1s ease forwards;
+}
+.hero-sub strong { color: rgba(255,255,255,0.9); font-weight: 700; }
+
+.hero-proof-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+  animation: fadeUp 0.5s 0.15s ease forwards;
+}
+.hero-proof-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.6);
+}
+.hero-proof-item .tick {
+  width: 20px; height: 20px;
+  background: rgba(46,128,68,0.3);
+  border: 1px solid var(--vert-c);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 10px;
+  color: #6ED48A;
+  flex-shrink: 0;
+}
+
+.hero-cta-group {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  animation: fadeUp 0.5s 0.2s ease forwards;
+}
+.btn-gold {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #E09A12, var(--or-c), #E09A12);
+  background-size: 200% auto;
+  color: var(--noir);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 17px;
+  padding: 20px 44px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(200,134,10,0.4), 0 0 0 0 rgba(240,168,32,0);
+  letter-spacing: 0.3px;
+  width: fit-content;
+  position: relative;
+  overflow: hidden;
+  animation: btn-shine 3s linear infinite;
+}
+.btn-gold::before {
+  content: '';
+  position: absolute;
+  top: -50%; left: -60%;
+  width: 40%; height: 200%;
+  background: rgba(255,255,255,0.25);
+  transform: skewX(-20deg);
+  animation: btn-shimmer 3s ease infinite;
+}
+@keyframes btn-shimmer {
+  0% { left: -60%; opacity: 0; }
+  20% { opacity: 1; }
+  40% { left: 130%; opacity: 0; }
+  100% { left: 130%; opacity: 0; }
+}
+@keyframes btn-shine {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+.btn-gold:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 20px 56px rgba(200,134,10,0.55), 0 0 0 4px rgba(240,168,32,0.2);
+}
+.btn-gold:active { transform: translateY(-1px) scale(0.99); }
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255,255,255,0.55);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.btn-ghost:hover { color: var(--or-c); border-color: rgba(240,168,32,0.4); background: rgba(240,168,32,0.06); transform: translateY(-2px); }
+.hero-guarantee {
+  font-size: 12px;
+  color: rgba(255,255,255,0.3);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+/* Mockup livre */
+.book-mockup {
+  position: relative;
+  width: 280px;
+  animation: fadeUp 0.5s 0.1s ease forwards;
+}
+.book-cover {
+  background: linear-gradient(160deg, var(--vert) 0%, #0d3318 100%);
+  border-radius: 4px 16px 16px 4px;
+  padding: 36px 28px;
+  box-shadow:
+    -8px 8px 0 rgba(0,0,0,0.4),
+    0 32px 80px rgba(0,0,0,0.6),
+    inset 4px 0 0 rgba(255,255,255,0.04);
+  position: relative;
+  overflow: hidden;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+}
+.book-cover::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--or), var(--or-c));
+}
+.book-cover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(255,255,255,0.015) 0px,
+    rgba(255,255,255,0.015) 1px,
+    transparent 1px,
+    transparent 24px
+  );
+}
+.book-badge {
+  display: inline-block;
+  background: var(--or);
+  color: var(--noir);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+}
+.book-icon {
+  font-size: 40px;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
+}
+.book-title {
+  font-family: 'Fraunces', serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--blanc);
+  line-height: 1.2;
+  margin-bottom: 8px;
+  position: relative;
+  z-index: 1;
+}
+.book-sub {
+  font-size: 11px;
+  color: var(--or-c);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 1;
+}
+.book-lines {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  z-index: 1;
+}
+.book-line {
+  height: 5px;
+  border-radius: 3px;
+  background: rgba(255,255,255,0.1);
+}
+.book-line.g { background: rgba(200,134,10,0.3); width: 75%; }
+.book-line.s { width: 55%; }
+.book-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 14px;
+  position: relative;
+  z-index: 1;
+}
+.book-pill {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 100px;
+  padding: 3px 9px;
+  font-size: 8px;
+  color: rgba(255,255,255,0.6);
+  font-weight: 600;
+}
+
+/* Stats sous le mockup */
+.book-stats {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+.book-stat {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 12px 8px;
+  text-align: center;
+}
+.book-stat-num {
+  font-family: 'Space Mono', monospace;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--or-c);
+  line-height: 1;
+  display: block;
+}
+.book-stat-label {
+  font-size: 9px;
+  color: rgba(255,255,255,0.4);
+  margin-top: 3px;
+  font-weight: 500;
+}
+
+/* Bonus badge flottant */
+.floating-badge {
+  position: absolute;
+  top: -16px;
+  right: -20px;
+  background: var(--rouge);
+  color: white;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 8px 14px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(184,50,39,0.4);
+  text-align: center;
+  line-height: 1.4;
+  animation: wobble 3s 2s ease infinite;
+}
+@keyframes wobble {
+  0%,100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ── SECTIONS GÉNÉRALES ── */
+.container { max-width: var(--w); margin: 0 auto; padding: 0 20px; }
+section { padding: 88px 20px; }
+.reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.reveal.in { opacity: 1; transform: translateY(0); }
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--vert);
+  border-left: 3px solid var(--or);
+  padding-left: 12px;
+  margin-bottom: 16px;
+  display: block;
+}
+.section-title {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(28px, 3.5vw, 46px);
+  font-weight: 900;
+  line-height: 1.15;
+  color: var(--noir);
+  margin-bottom: 16px;
+}
+.section-title em { font-style: italic; color: var(--vert); }
+.section-sub {
+  font-size: 17px;
+  color: var(--gris);
+  line-height: 1.75;
+  max-width: 600px;
+}
+
+/* ── PROBLÈME ── */
+.problem { background: var(--noir); color: var(--blanc); }
+.problem .section-title { color: var(--blanc); }
+.problem .section-sub { color: rgba(255,255,255,0.55); }
+.problem .eyebrow { color: var(--or-c); border-color: var(--or); }
+
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 52px;
+}
+.problem-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 16px;
+  padding: 28px;
+  transition: border-color 0.3s, background 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.problem-card:hover { border-color: rgba(200,134,10,0.3); background: rgba(255,255,255,0.05); }
+.problem-card-icon { font-size: 30px; margin-bottom: 14px; }
+.problem-card-title { font-weight: 700; font-size: 16px; color: var(--blanc); margin-bottom: 10px; }
+.problem-card-text { font-size: 14px; color: rgba(255,255,255,0.5); line-height: 1.7; }
+
+.problem-pivot {
+  margin-top: 60px;
+  background: linear-gradient(135deg, rgba(26,92,42,0.25), rgba(200,134,10,0.08));
+  border: 1px solid rgba(200,134,10,0.2);
+  border-radius: 20px;
+  padding: 44px;
+  text-align: center;
+}
+.problem-pivot p {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(18px, 2.5vw, 28px);
+  color: var(--blanc);
+  line-height: 1.55;
+  font-weight: 700;
+}
+.problem-pivot p em { color: var(--or-c); font-style: italic; }
+
+/* ── CONTENU ── */
+.content-section { background: var(--gris-c); }
+
+.modules-wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 18px;
+  margin-top: 52px;
+}
+.module-card {
+  background: var(--blanc);
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid #E2EAE3;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.module-card:hover { transform: translateY(-5px); box-shadow: 0 12px 40px rgba(0,0,0,0.09); }
+.module-head {
+  background: linear-gradient(135deg, var(--vert), var(--vert-c));
+  padding: 18px 22px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.module-num {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--or-c);
+  background: rgba(0,0,0,0.2);
+  padding: 3px 9px;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+.module-head-title { font-size: 15px; font-weight: 700; color: var(--blanc); }
+.module-body { padding: 18px 22px; }
+.module-item {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 8px 0;
+  border-bottom: 1px solid #F0F4F1;
+  font-size: 13.5px;
+  color: #3A4A3E;
+  line-height: 1.55;
+}
+.module-item:last-child { border-bottom: none; }
+.module-item::before { content: '✓'; color: var(--vert); font-weight: 800; font-size: 12px; flex-shrink: 0; margin-top: 2px; }
+
+/* Bonus section */
+.bonus-block {
+  background: var(--noir);
+  border-radius: 20px;
+  padding: 40px;
+  margin-top: 30px;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid rgba(200,134,10,0.2);
+}
+.bonus-icon-box {
+  width: 80px; height: 80px;
+  background: linear-gradient(135deg, var(--or), var(--or-c));
+  border-radius: 20px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 38px;
+  flex-shrink: 0;
+}
+.bonus-info { flex: 1; min-width: 220px; }
+.bonus-label { font-size: 10px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: var(--or-c); margin-bottom: 6px; }
+.bonus-title { font-size: 20px; font-weight: 800; color: var(--blanc); margin-bottom: 8px; }
+.bonus-desc { font-size: 14px; color: rgba(255,255,255,0.55); line-height: 1.65; }
+.bonus-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.bonus-pill {
+  background: rgba(200,134,10,0.12);
+  border: 1px solid rgba(200,134,10,0.28);
+  color: var(--or-c);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 100px;
+}
+
+/* ── CHIFFRES ── */
+.numbers-section {
+  background: linear-gradient(160deg, var(--vert) 0%, #0d3318 100%);
+  color: var(--blanc);
+  text-align: center;
+}
+.numbers-section .section-title { color: var(--blanc); }
+.numbers-section .section-sub { color: rgba(255,255,255,0.6); margin: 0 auto; }
+.numbers-section .eyebrow { color: var(--or-c); border-color: var(--or); margin: 0 auto 16px; display: inline-block; }
+
+.numbers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 52px;
+}
+.number-card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  padding: 32px 20px;
+  transition: background 0.3s;
+}
+.number-card:hover { background: rgba(255,255,255,0.1); }
+.number-val {
+  font-family: 'Space Mono', monospace;
+  font-size: 46px;
+  font-weight: 700;
+  color: var(--or-c);
+  line-height: 1;
+  margin-bottom: 8px;
+  display: block;
+}
+.number-label { font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.5; }
+.number-sub { font-size: 12px; color: rgba(255,255,255,0.35); margin-top: 4px; }
+
+/* ── DÉMONSTRATION ── */
+.demo-section { background: var(--blanc); }
+.demo-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  margin-top: 56px;
+  align-items: start;
+}
+@media(max-width:768px) { .demo-wrap { grid-template-columns: 1fr; } }
+
+/* Simulateur budget */
+.budget-sim {
+  background: var(--gris-c);
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #E2EAE3;
+}
+.budget-sim-header {
+  background: var(--vert);
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.budget-sim-title { color: var(--blanc); font-weight: 700; font-size: 15px; }
+.sim-dots { display: flex; gap: 5px; }
+.sim-dot { width: 10px; height: 10px; border-radius: 50%; }
+.sim-dot.r { background: #FF5F57; }
+.sim-dot.y { background: #FEBC2E; }
+.sim-dot.g { background: #28C840; }
+
+.budget-sim-body { padding: 24px; }
+.sim-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #E8EEE9;
+  font-size: 14px;
+}
+.sim-row:last-child { border-bottom: none; }
+.sim-label { color: var(--gris); }
+.sim-val { font-weight: 700; color: var(--noir); font-family: 'Space Mono', monospace; font-size: 13px; }
+.sim-val.vert { color: var(--vert); }
+.sim-val.or { color: var(--or); }
+.sim-total {
+  background: var(--vert);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sim-total-label { color: rgba(255,255,255,0.8); font-weight: 700; font-size: 14px; }
+.sim-total-val { font-family: 'Space Mono', monospace; font-size: 22px; font-weight: 700; color: var(--or-c); }
+
+.sim-tabs { display: flex; gap: 0; margin-bottom: 20px; border-radius: 10px; overflow: hidden; border: 1px solid #E2EAE3; }
+.sim-tab {
+  flex: 1;
+  padding: 9px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  background: var(--blanc);
+  color: var(--gris);
+  border: none;
+  font-family: 'Outfit', sans-serif;
+  transition: all 0.2s;
+}
+.sim-tab.active { background: var(--vert); color: var(--blanc); }
+
+/* Cas réels */
+.demo-cases { display: flex; flex-direction: column; gap: 20px; }
+.case-card {
+  background: var(--blanc);
+  border: 1px solid #E2EAE3;
+  border-radius: 16px;
+  padding: 22px;
+  border-left: 4px solid var(--vert);
+  transition: transform 0.2s;
+}
+.case-card:hover { transform: translateX(6px); }
+.case-top { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; }
+.case-avatar {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; font-weight: 800;
+  color: var(--blanc);
+  flex-shrink: 0;
+}
+.case-name { font-weight: 800; font-size: 15px; color: var(--noir); }
+.case-role { font-size: 12px; color: var(--gris); }
+.case-loc { font-size: 11px; color: var(--vert); font-weight: 700; }
+.case-quote {
+  font-size: 13.5px;
+  color: #444;
+  line-height: 1.7;
+  font-style: italic;
+  border-top: 1px solid #F0F4F1;
+  padding-top: 12px;
+}
+.case-result {
+  margin-top: 12px;
+  background: var(--vert-p);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--vert);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ── FILIÈRES ── */
+.filieres-section { background: var(--gris-c); }
+.filieres-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 52px;
+}
+.filiere-card {
+  background: var(--blanc);
+  border-radius: 16px;
+  padding: 28px 20px;
+  text-align: center;
+  border: 2px solid #E2EAE3;
+  transition: all 0.3s;
+  cursor: default;
+}
+.filiere-card:hover { border-color: var(--vert); transform: translateY(-6px); box-shadow: 0 16px 40px rgba(0,0,0,0.08); }
+.filiere-icon { font-size: 44px; margin-bottom: 14px; display: block; }
+.filiere-name { font-weight: 800; font-size: 16px; color: var(--noir); margin-bottom: 10px; }
+.filiere-kpis { display: flex; flex-direction: column; gap: 6px; }
+.filiere-kpi { font-size: 12px; color: var(--gris); }
+.filiere-kpi span { font-weight: 700; color: var(--vert); }
+.filiere-badge {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 4px 12px;
+  border-radius: 100px;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.filiere-badge.best { background: var(--vert-p); color: var(--vert); }
+.filiere-badge.good { background: var(--or-p); color: var(--or); }
+
+/* ── TÉMOIGNAGES ── */
+.temoignages { background: var(--blanc); }
+.temoignages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 22px;
+  margin-top: 52px;
+}
+.temoignage-card {
+  background: var(--gris-c);
+  border-radius: 20px;
+  padding: 30px;
+  position: relative;
+  border: 1px solid #E2EAE3;
+  overflow: hidden;
+}
+.temoignage-card::after {
+  content: '"';
+  position: absolute;
+  top: -10px; right: 16px;
+  font-family: 'Fraunces', serif;
+  font-size: 100px;
+  color: rgba(26,92,42,0.06);
+  line-height: 1;
+  pointer-events: none;
+}
+.tem-profile { display: flex; gap: 14px; align-items: center; margin-bottom: 18px; }
+.tem-avatar {
+  width: 50px; height: 50px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; font-weight: 800;
+  color: var(--blanc);
+  flex-shrink: 0;
+}
+.tem-name { font-weight: 800; font-size: 15px; color: var(--noir); }
+.tem-role { font-size: 12px; color: var(--gris); }
+.tem-loc { font-size: 11px; color: var(--vert); font-weight: 700; }
+.tem-stars { color: var(--or); font-size: 16px; margin-bottom: 12px; }
+.tem-text { font-size: 14px; color: #444; line-height: 1.75; font-style: italic; }
+.tem-result {
+  margin-top: 16px;
+  padding: 10px 14px;
+  background: var(--vert-p);
+  border-radius: 8px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--vert);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ── OFFRES ── */
+.offres-section { background: var(--blanc); }
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 52px;
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pricing-card {
+  border-radius: 24px;
+  padding: 36px 30px;
+  border: 2px solid #E2EAE3;
+  background: var(--blanc);
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.pricing-card:hover { transform: translateY(-6px); box-shadow: 0 20px 56px rgba(0,0,0,0.1); }
+.pricing-card.featured {
+  border-color: var(--vert);
+  background: linear-gradient(160deg, #f2fbf4, var(--blanc));
+  box-shadow: 0 8px 40px rgba(26,92,42,0.12);
+}
+.pricing-top-badge {
+  position: absolute;
+  top: -14px; left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, var(--or), var(--or-c));
+  color: var(--noir);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  padding: 5px 16px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.pricing-name { font-size: 12px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: var(--gris); margin-bottom: 12px; }
+.pricing-price-row { display: flex; align-items: baseline; gap: 4px; margin-bottom: 4px; }
+.pricing-amount { font-family: 'Space Mono', monospace; font-size: 46px; font-weight: 700; color: var(--noir); line-height: 1; }
+.pricing-currency { font-size: 16px; font-weight: 700; color: var(--gris); }
+.pricing-original { font-size: 13px; color: var(--gris); text-decoration: line-through; margin-bottom: 4px; }
+.pricing-save {
+  display: inline-block;
+  background: #FEF3DC;
+  color: #8B5E0A;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 6px;
+  margin-bottom: 22px;
+}
+.pricing-divider { height: 1px; background: #E8EEE9; margin: 18px 0; }
+.pricing-features { display: flex; flex-direction: column; gap: 11px; margin-bottom: 26px; }
+.pricing-feature { display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: #3A4A3E; line-height: 1.5; }
+.pricing-feature .chk { color: var(--vert); font-weight: 800; font-size: 13px; flex-shrink: 0; margin-top: 1px; }
+.pricing-feature.bold { font-weight: 700; color: var(--noir); }
+
+.btn-pricing {
+  width: 100%;
+  display: flex; align-items: center; justify-content: center;
+  gap: 8px;
+  padding: 17px 24px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.btn-pricing.vert {
+  background: linear-gradient(135deg, var(--vert), var(--vert-c), var(--vert));
+  background-size: 200% auto;
+  color: var(--blanc);
+  box-shadow: 0 8px 24px rgba(26,92,42,0.3);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.btn-pricing.vert::before {
+  content: '';
+  position: absolute;
+  top: -50%; left: -60%;
+  width: 40%; height: 200%;
+  background: rgba(255,255,255,0.15);
+  transform: skewX(-20deg);
+  animation: btn-shimmer 3.5s ease infinite;
+}
+.btn-pricing.vert:hover {
+  box-shadow: 0 16px 40px rgba(26,92,42,0.45), 0 0 0 3px rgba(46,128,68,0.25);
+  transform: translateY(-3px) scale(1.02);
+  background-position: right center;
+}
+.btn-pricing.or {
+  background: linear-gradient(135deg, #E09A12, var(--or-c), #E09A12);
+  background-size: 200% auto;
+  color: var(--noir);
+  box-shadow: 0 8px 24px rgba(200,134,10,0.35);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  animation: btn-shine 3s linear infinite;
+}
+.btn-pricing.or::before {
+  content: '';
+  position: absolute;
+  top: -50%; left: -60%;
+  width: 40%; height: 200%;
+  background: rgba(255,255,255,0.25);
+  transform: skewX(-20deg);
+  animation: btn-shimmer 3s ease infinite;
+}
+.btn-pricing.or:hover {
+  box-shadow: 0 18px 44px rgba(200,134,10,0.5), 0 0 0 4px rgba(240,168,32,0.2);
+  transform: translateY(-4px) scale(1.02);
+}
+
+.payment-icons { display: flex; justify-content: center; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+.pay-pill {
+  background: var(--gris-c);
+  border: 1px solid #E2EAE3;
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #555;
+}
+.pay-pill.wave { color: #0059AA; background: #EBF3FF; border-color: #CCDDF5; }
+.pay-pill.orange { color: #CC5500; background: #FFF2EA; border-color: #FFD9B8; }
+.pay-pill.mtn { color: #AA6600; background: #FFF8EE; border-color: #FFE5B0; }
+
+/* Bonus timer */
+.bonus-timer-block {
+  margin-top: 40px;
+  background: var(--noir);
+  border-radius: 18px;
+  padding: 28px 36px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  border: 1px solid rgba(200,134,10,0.18);
+}
+.timer-icon { font-size: 38px; flex-shrink: 0; }
+.timer-info { flex: 1; min-width: 180px; }
+.timer-title { font-size: 17px; font-weight: 800; color: var(--blanc); margin-bottom: 5px; }
+.timer-sub { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.6; }
+.timer-blocks { display: flex; gap: 10px; flex-shrink: 0; }
+.timer-block {
+  text-align: center;
+  background: rgba(255,255,255,0.06);
+  border-radius: 8px;
+  padding: 8px 14px;
+  min-width: 52px;
+}
+.timer-num { font-family: 'Space Mono', monospace; font-size: 24px; font-weight: 700; color: var(--or-c); line-height: 1; display: block; }
+.timer-lbl { font-size: 9px; color: rgba(255,255,255,0.35); font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+
+/* ── FAQ ── */
+.faq-section { background: var(--gris-c); }
+.faq-list { max-width: 760px; margin: 52px auto 0; display: flex; flex-direction: column; gap: 10px; }
+.faq-item { background: var(--blanc); border-radius: 12px; border: 1px solid #E2EAE3; overflow: hidden; }
+.faq-item:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+.faq-q {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Outfit', sans-serif;
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--noir);
+  text-align: left;
+  transition: color 0.2s;
+}
+.faq-q:hover { color: var(--vert); }
+.faq-chev {
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  background: var(--vert-p);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--vert);
+  font-size: 14px;
+  flex-shrink: 0;
+  transition: transform 0.3s, background 0.2s;
+}
+.faq-item.open .faq-chev { transform: rotate(45deg); background: var(--vert); color: var(--blanc); }
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s;
+  font-size: 14px;
+  color: var(--gris);
+  line-height: 1.8;
+  padding: 0 22px;
+}
+.faq-item.open .faq-a { max-height: 280px; padding: 0 22px 18px; }
+
+/* ── GARANTIE ── */
+.garantie {
+  background: var(--vert);
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--blanc);
+}
+.garantie-icon {
+  width: 80px; height: 80px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.12);
+  border: 2px solid rgba(255,255,255,0.25);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 38px;
+  margin: 0 auto 24px;
+}
+.garantie-title { font-family: 'Fraunces', serif; font-size: clamp(24px, 3vw, 38px); font-weight: 900; margin-bottom: 14px; }
+.garantie-text { font-size: 16px; color: rgba(255,255,255,0.78); max-width: 540px; margin: 0 auto; line-height: 1.75; }
+
+/* ── CTA FINAL ── */
+.final-cta {
+  background: linear-gradient(160deg, var(--noir) 0%, #0d2414 100%);
+  text-align: center;
+  padding: 110px 20px;
+  position: relative;
+  overflow: hidden;
+}
+.final-cta::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 50% 100%, rgba(26,92,42,0.4) 0%, transparent 60%);
+}
+.final-cta-title {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(28px, 5vw, 54px);
+  font-weight: 900;
+  color: var(--blanc);
+  margin-bottom: 20px;
+  position: relative;
+}
+.final-cta-title span { color: var(--or-c); }
+.final-cta-sub { font-size: 17px; color: rgba(255,255,255,0.65); max-width: 540px; margin: 0 auto 48px; line-height: 1.7; position: relative; }
+.final-cta-btns { display: flex; flex-direction: column; align-items: center; gap: 14px; position: relative; }
+.final-note { font-size: 12px; color: rgba(255,255,255,0.3); margin-top: 10px; display: flex; align-items: center; gap: 6px; justify-content: center; }
+
+/* ── FOOTER ── */
+footer {
+  background: var(--noir);
+  padding: 32px 20px;
+  text-align: center;
+  color: rgba(255,255,255,0.35);
+  font-size: 12px;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+footer strong { color: var(--or-c); }
+.footer-links { display: flex; justify-content: center; gap: 24px; margin-top: 12px; flex-wrap: wrap; }
+.footer-links a { color: rgba(255,255,255,0.3); text-decoration: none; font-size: 11px; transition: color 0.2s; }
+.footer-links a:hover { color: var(--or-c); }
+
+/* ── STICKY MOBILE ── */
+.sticky-mob {
+  display: none;
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  background: var(--noir);
+  padding: 14px 18px;
+  border-top: 2px solid var(--or);
+  z-index: 99;
+  align-items: center;
+  gap: 12px;
+}
+.sticky-mob-txt strong { display: block; color: var(--blanc); font-size: 13px; }
+.sticky-mob-txt span { color: var(--or-c); font-size: 11px; font-weight: 600; }
+.sticky-mob .btn-gold { font-size: 13px; padding: 12px 20px; white-space: nowrap; }
+@media(max-width:640px) { .sticky-mob { display: flex; } }
+
+.hero-mobile-mockup {
+  display: none;
+  margin: 18px 0 4px;
+  position: relative;
+}
+.hero-mobile-mockup .book-cover {
+  border-radius: 4px 14px 14px 4px;
+  box-shadow: -5px 5px 0 rgba(0,0,0,0.35), 0 16px 40px rgba(0,0,0,0.5);
+  min-height: 260px;
+}
+@media(max-width:900px) {
+  .hero-mobile-mockup { display: block; }
+}
+
+/* ── RESPONSIVE HERO ── */
+@media(max-width:900px) {
+  .hero { grid-template-columns: 1fr; min-height: auto; display: flex; flex-direction: column; }
+  .hero-left { padding: 18px 20px 16px; order: 1; }
+  .hero-right { display: none !important; }
+  .book-mockup { width: 200px; }
+  .floating-badge { right: -8px; top: -8px; font-size: 8px; padding: 6px 10px; }
+}
+@media(max-width:640px) {
+  .hero-left { padding: 12px 16px 10px; }
+  .hero-eyebrow { margin-bottom: 8px; font-size: 10px; }
+  .hero-title { font-size: 32px; margin-bottom: 14px; }
+  .hero-sub { margin-bottom: 20px; font-size: 15px; }
+}
+</style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="dot"></div>
+  <span>🎁 Offre de lancement — Les <strong>50 premiers acheteurs</strong> reçoivent le calculateur Excel offert · <strong>Durée limitée</strong></span>
+</div>
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="hero-texture"></div>
+
+  <div class="hero-left">
+    <div class="hero-eyebrow">🌾 Guide Agri-Business 2026</div>
+
+    <h1 class="hero-title">
+      Ton argent peut travailler<br/>
+      dans les champs<br/>
+      <em>pendant que toi tu restes en ville.</em>
+    </h1>
+
+    <div class="hero-mobile-mockup" style="position:relative;">
+      <div class="floating-badge" style="position:absolute;top:-12px;right:-12px;z-index:10;">BONUS<br/>Calculateur<br/>Excel 📊</div>
+      <div class="book-cover">
+        <div class="book-badge">Guide 2026</div>
+        <div class="book-icon">&#127807;</div>
+        <div class="book-title">Agri-Business<br/>depuis Zéro</div>
+        <div class="book-sub">Learn and Earn — Digital Solution</div>
+        <div class="book-lines">
+          <div class="book-line g"></div>
+          <div class="book-line"></div>
+          <div class="book-line s"></div>
+          <div class="book-line g"></div>
+        </div>
+        <div class="book-pills">
+          <div class="book-pill">Aviculture</div>
+          <div class="book-pill">Maraîchage</div>
+          <div class="book-pill">Champignons</div>
+          <div class="book-pill">35 pages</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="hero-sub">
+      Des milliers d'Africains investissent dans l'agriculture <strong>sans quitter leur bureau</strong>, sans expérience agricole, et sans se salir les mains. Ce guide te montre exactement comment faire — avec les vrais chiffres, les vraies filières, et les vraies erreurs à éviter.
+    </p>
+
+    <div class="hero-proof-strip">
+      <div class="hero-proof-item"><div class="tick">✓</div> 35 pages de contenu terrain</div>
+      <div class="hero-proof-item"><div class="tick">✓</div> 5 filières détaillées</div>
+      <div class="hero-proof-item"><div class="tick">✓</div> Calculateur Excel inclus</div>
+      <div class="hero-proof-item"><div class="tick">✓</div> Garanti 7 jours</div>
+    </div>
+
+    <div class="hero-cta-group">
+      <a href="#offres" class="btn-gold">🌾 Je veux investir intelligemment</a>
+      <a href="#contenu" class="btn-ghost">↓ Voir ce qu'il y a dans le guide</a>
+      <p class="hero-guarantee">🔒 Paiement sécurisé · Livraison instantanée · Remboursé si non satisfait</p>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div style="position:relative;">
+      <div class="book-mockup">
+        <div class="book-cover">
+          <div class="book-badge">Guide 2026</div>
+          <div class="book-icon">🌾</div>
+          <div class="book-title">Agri-Business<br/>depuis Zéro</div>
+          <div class="book-sub">Learn and Earn — Digital Solution</div>
+          <div class="book-lines">
+            <div class="book-line g"></div>
+            <div class="book-line"></div>
+            <div class="book-line s"></div>
+            <div class="book-line g"></div>
+            <div class="book-line"></div>
+          </div>
+          <div class="book-pills">
+            <div class="book-pill">Aviculture</div>
+            <div class="book-pill">Maraîchage</div>
+            <div class="book-pill">Champignons</div>
+            <div class="book-pill">Apiculture</div>
+            <div class="book-pill">Pisciculture</div>
+          </div>
+        </div>
+        <div class="book-stats">
+          <div class="book-stat"><span class="book-stat-num">35</span><div class="book-stat-label">Pages</div></div>
+          <div class="book-stat"><span class="book-stat-num">5</span><div class="book-stat-label">Filières</div></div>
+          <div class="book-stat"><span class="book-stat-num">7</span><div class="book-stat-label">Chapitres</div></div>
+        </div>
+      </div>
+      <div class="floating-badge">BONUS<br/>Calculateur<br/>Excel 📊</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROBLÈME ══ -->
+<section class="problem">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Le vrai problème</div>
+      <h2 class="section-title" style="color:var(--blanc);">Tu travailles dur. Mais ton argent,<br/>lui, ne travaille pas.</h2>
+      <p class="section-sub">Tu économises, tu mets de côté — et cet argent dort dans ton compte ou dans ta maison en attendant de faire quelque chose. En attendant quoi, exactement ?</p>
+    </div>
+
+    <div class="problem-grid reveal">
+      <div class="problem-card">
+        <div class="problem-card-icon">😶</div>
+        <div class="problem-card-title">Tu ne sais pas dans quoi investir</div>
+        <div class="problem-card-text">L'immobilier coûte trop cher. La bourse est trop risquée. Le commerce demande du capital et de la présence. Tu tournes en rond sans trouver la bonne porte d'entrée.</div>
+      </div>
+      <div class="problem-card">
+        <div class="problem-card-icon">🌱</div>
+        <div class="problem-card-title">Tu penses que l'agriculture c'est pour les autres</div>
+        <div class="problem-card-text">Pour les gens du village. Pour ceux qui ont un terrain. Pour ceux qui s'y connaissent. Pas pour toi, fonctionnaire ou commerçant en ville. C'est exactement cette idée qui te coûte de l'argent chaque année.</div>
+      </div>
+      <div class="problem-card">
+        <div class="problem-card-icon">🎯</div>
+        <div class="problem-card-title">Tu n'as pas les bons chiffres</div>
+        <div class="problem-card-text">Tu entends "l'aviculture c'est rentable" mais personne ne te dit combien investir, combien gagner, et dans combien de temps. Sans chiffres concrets, impossible de décider.</div>
+      </div>
+      <div class="problem-card">
+        <div class="problem-card-icon">🤝</div>
+        <div class="problem-card-title">Tu as peur de te faire arnaquer</div>
+        <div class="problem-card-text">Tu connais quelqu'un qui a perdu de l'argent dans un partenariat agricole. Un partenaire qui disparaît, un élevage qui tourne mal, et tout s'évapore. Sans méthode, le risque est réel.</div>
+      </div>
+    </div>
+
+    <div class="problem-pivot reveal">
+      <p>Ce n'est pas un manque de moyens. Ce n'est pas un manque de volonté.<br/>C'est simplement que <em>personne ne t'a donné la méthode adaptée à ta réalité.</em><br/>Ce guide change ça.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTENU ══ -->
+<section class="content-section" id="contenu">
+  <div class="container">
+    <div class="reveal" style="text-align:center;">
+      <div class="eyebrow" style="display:inline-block;text-align:left;">Ce que tu reçois</div>
+      <h2 class="section-title">Un guide complet. <em>Du concret.</em> Rien que du terrain.</h2>
+      <p class="section-sub" style="margin:0 auto;">35 pages rédigées pour l'investisseur urbain africain — pas pour un agronome, pas pour un chercheur. Pour toi.</p>
+    </div>
+
+    <div class="modules-wrap reveal">
+      <div class="module-card">
+        <div class="module-head"><div class="module-num">01</div><div class="module-head-title">Comprendre l'agri-business</div></div>
+        <div class="module-body">
+          <div class="module-item">Différence entre agriculture et agri-business</div>
+          <div class="module-item">Pourquoi l'urbain a un avantage sur le paysan</div>
+          <div class="module-item">Les 3 erreurs fatales des débutants</div>
+          <div class="module-item">5 questions à se poser avant tout investissement</div>
+        </div>
+      </div>
+      <div class="module-card">
+        <div class="module-head"><div class="module-num">02</div><div class="module-head-title">Les 5 filières recommandées</div></div>
+        <div class="module-body">
+          <div class="module-item">Aviculture — la filière reine pour débutants</div>
+          <div class="module-item">Maraîchage — revenus réguliers et stables</div>
+          <div class="module-item">Champignons — petit espace, grande rentabilité</div>
+          <div class="module-item">Pisciculture et Apiculture — vision long terme</div>
+        </div>
+      </div>
+      <div class="module-card">
+        <div class="module-head"><div class="module-num">03</div><div class="module-head-title">Focus Aviculture — Guide complet</div></div>
+        <div class="module-body">
+          <div class="module-item">Budgets détaillés pour 200 / 500 / 1 000 poulets</div>
+          <div class="module-item">Calendrier complet des 45 jours cycle par cycle</div>
+          <div class="module-item">Vaccination, alimentation, gestion sanitaire</div>
+          <div class="module-item">Circuits de vente — maquis, marchés, particuliers</div>
+        </div>
+      </div>
+      <div class="module-card">
+        <div class="module-head"><div class="module-num">04</div><div class="module-head-title">Focus Maraîchage</div></div>
+        <div class="module-body">
+          <div class="module-item">Le modèle investisseur + producteur expliqué</div>
+          <div class="module-item">Quoi cultiver selon la saison et le pays</div>
+          <div class="module-item">Budgets pour 500 m² / 1 000 m² / 2 500 m²</div>
+          <div class="module-item">Où vendre et à quel prix pour maximiser</div>
+        </div>
+      </div>
+      <div class="module-card">
+        <div class="module-head"><div class="module-num">05</div><div class="module-head-title">Terrain, partenaire et contrat</div></div>
+        <div class="module-body">
+          <div class="module-item">Zones agricoles identifiées par ville (Dakar, Abidjan, Douala)</div>
+          <div class="module-item">Comment sélectionner un éleveur fiable</div>
+          <div class="module-item">Les 8 clauses du contrat investisseur-producteur</div>
+          <div class="module-item">Signaux d'alarme à fuir absolument</div>
+        </div>
+      </div>
+      <div class="module-card">
+        <div class="module-head"><div class="module-num">+</div><div class="module-head-title">Sections exclusives</div></div>
+        <div class="module-body">
+          <div class="module-item">3 cas réels — Moussa, Adjoua, Bertrand avec chiffres</div>
+          <div class="module-item">Guide des 5 maladies courantes en aviculture</div>
+          <div class="module-item">Calendrier agricole saison sèche / pluies</div>
+          <div class="module-item">FAQ — 15 vraies questions de débutants</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bonus-block reveal">
+      <div class="bonus-icon-box">📊</div>
+      <div class="bonus-info">
+        <div class="bonus-label">Bonus Premium exclusif</div>
+        <div class="bonus-title">Calculateur de Rentabilité Excel</div>
+        <div class="bonus-desc">6 feuilles interconnectées avec formules automatiques. Saisissez votre budget, le calculateur vous donne vos bénéfices estimés, votre ROI et votre projection sur 12 mois — pour les 3 filières en même temps.</div>
+        <div class="bonus-pills">
+          <span class="bonus-pill">🐔 Aviculture</span>
+          <span class="bonus-pill">🥬 Maraîchage</span>
+          <span class="bonus-pill">🌱 Champignons</span>
+          <span class="bonus-pill">📈 Comparaison</span>
+          <span class="bonus-pill">📅 Plan 12 mois</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CHIFFRES ══ -->
+<section class="numbers-section">
+  <div class="container">
+    <div class="reveal" style="text-align:center;">
+      <div class="eyebrow">Les chiffres parlent</div>
+      <h2 class="section-title">L'agri-business en Afrique,<br/><em>c'est du concret.</em></h2>
+      <p class="section-sub">Pas des promesses. Des chiffres réels tirés du terrain en Afrique de l'Ouest et Centrale.</p>
+    </div>
+    <div class="numbers-grid reveal">
+      <div class="number-card">
+        <span class="number-val">+134%</span>
+        <div class="number-label">ROI moyen sur un cycle aviculture de 200 poulets</div>
+        <div class="number-sub">En 45 jours seulement</div>
+      </div>
+      <div class="number-card">
+        <span class="number-val">45j</span>
+        <div class="number-label">Durée d'un cycle poulet de chair — le retour le plus rapide en agri-business</div>
+        <div class="number-sub">6 cycles possibles par an</div>
+      </div>
+      <div class="number-card">
+        <span class="number-val">6</span>
+        <div class="number-label">Cycles par an en aviculture — soit 6 fois ton capital réinvesti et multiplié</div>
+        <div class="number-sub">Avec réinvestissement progressif</div>
+      </div>
+      <div class="number-card">
+        <span class="number-val">50K</span>
+        <div class="number-label">FCFA minimum pour démarrer la production de champignons</div>
+        <div class="number-sub">Rentable dès le 2e cycle</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ DÉMONSTRATION ══ -->
+<section class="demo-section">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Voir avant d'acheter</div>
+      <h2 class="section-title">Un simulateur. <em>Des cas réels.</em></h2>
+      <p class="section-sub">Voici exactement ce que contient le guide — les budgets que tu trouveras et les résultats que d'autres ont déjà obtenus.</p>
+    </div>
+
+    <div class="demo-wrap reveal">
+      <div>
+        <div class="budget-sim">
+          <div class="budget-sim-header">
+            <div class="sim-dots"><div class="sim-dot r"></div><div class="sim-dot y"></div><div class="sim-dot g"></div></div>
+            <div class="budget-sim-title">Simulateur — Aviculture poulets de chair</div>
+          </div>
+          <div class="budget-sim-body">
+            <div class="sim-tabs">
+              <button class="sim-tab active" onclick="showSim(this,'s200')">200 poulets</button>
+              <button class="sim-tab" onclick="showSim(this,'s500')">500 poulets</button>
+              <button class="sim-tab" onclick="showSim(this,'s1000')">1 000 poulets</button>
+            </div>
+
+            <div id="s200">
+              <div class="sim-row"><span class="sim-label">Poussins (200 × 485 FCFA)</span><span class="sim-val">97 000</span></div>
+              <div class="sim-row"><span class="sim-label">Aliments (13 sacs)</span><span class="sim-val">253 500</span></div>
+              <div class="sim-row"><span class="sim-label">Vaccins & médicaments</span><span class="sim-val">15 000</span></div>
+              <div class="sim-row"><span class="sim-label">Loyer + main d'œuvre</span><span class="sim-val">45 000</span></div>
+              <div class="sim-row"><span class="sim-label">Frais divers</span><span class="sim-val">10 000</span></div>
+              <div class="sim-row"><span class="sim-label">Poulets vendus (190 × 3 500)</span><span class="sim-val vert">665 000</span></div>
+              <div class="sim-total"><span class="sim-total-label">🎯 Bénéfice net estimé</span><span class="sim-total-val">~381 000 FCFA</span></div>
+            </div>
+            <div id="s500" style="display:none">
+              <div class="sim-row"><span class="sim-label">Poussins (500 × 485 FCFA)</span><span class="sim-val">242 500</span></div>
+              <div class="sim-row"><span class="sim-label">Aliments (33 sacs)</span><span class="sim-val">630 000</span></div>
+              <div class="sim-row"><span class="sim-label">Vaccins & médicaments</span><span class="sim-val">35 000</span></div>
+              <div class="sim-row"><span class="sim-label">Loyer + main d'œuvre</span><span class="sim-val">90 000</span></div>
+              <div class="sim-row"><span class="sim-label">Frais divers</span><span class="sim-val">20 000</span></div>
+              <div class="sim-row"><span class="sim-label">Poulets vendus (475 × 3 500)</span><span class="sim-val vert">1 662 500</span></div>
+              <div class="sim-total"><span class="sim-total-label">🎯 Bénéfice net estimé</span><span class="sim-total-val">~645 000 FCFA</span></div>
+            </div>
+            <div id="s1000" style="display:none">
+              <div class="sim-row"><span class="sim-label">Poussins (1000 × 480 FCFA)</span><span class="sim-val">480 000</span></div>
+              <div class="sim-row"><span class="sim-label">Aliments (65 sacs)</span><span class="sim-val">1 210 000</span></div>
+              <div class="sim-row"><span class="sim-label">Vaccins & médicaments</span><span class="sim-val">65 000</span></div>
+              <div class="sim-row"><span class="sim-label">Loyer + main d'œuvre</span><span class="sim-val">160 000</span></div>
+              <div class="sim-row"><span class="sim-label">Frais divers</span><span class="sim-val">40 000</span></div>
+              <div class="sim-row"><span class="sim-label">Poulets vendus (950 × 3 500)</span><span class="sim-val vert">3 325 000</span></div>
+              <div class="sim-total"><span class="sim-total-label">🎯 Bénéfice net estimé</span><span class="sim-total-val">~1 370 000 FCFA</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="demo-cases">
+        <div class="case-card">
+          <div class="case-top">
+            <div class="case-avatar" style="background:var(--vert);">M</div>
+            <div>
+              <div class="case-name">Moussa D.</div>
+              <div class="case-role">Comptable — investisseur avicole</div>
+              <div class="case-loc">📍 Dakar, Sénégal</div>
+            </div>
+          </div>
+          <div class="case-quote">"Je pensais que l'agriculture c'était pour les gens du village. Après mon premier cycle de 200 poulets, j'ai compris que j'avais tort depuis des années."</div>
+          <div class="case-result">💰 310 000 FCFA de bénéfice net — premier cycle</div>
+        </div>
+        <div class="case-card">
+          <div class="case-top">
+            <div class="case-avatar" style="background:var(--or);">A</div>
+            <div>
+              <div class="case-name">Adjoua K.</div>
+              <div class="case-role">Vendeuse — investisseuse maraîchage</div>
+              <div class="case-loc">📍 Abidjan, Côte d'Ivoire</div>
+            </div>
+          </div>
+          <div class="case-quote">"Ma connaissance des prix du marché était mon vrai avantage. J'ai planté ce que je savais se vendre cher — les autres investissent sans savoir les prix."</div>
+          <div class="case-result">📈 188 000 FCFA bénéfice sur 115 000 FCFA investis</div>
+        </div>
+        <div class="case-card">
+          <div class="case-top">
+            <div class="case-avatar" style="background:var(--terre);">B</div>
+            <div>
+              <div class="case-name">Bertrand N.</div>
+              <div class="case-role">Étudiant — producteur de champignons</div>
+              <div class="case-loc">📍 Douala, Cameroun</div>
+            </div>
+          </div>
+          <div class="case-quote">"87 000 FCFA dans ma chambre de 12 m². C'est tout ce qu'il m'a fallu pour commencer. Le plus grand obstacle était dans ma tête."</div>
+          <div class="case-result">🌱 315 000 FCFA de bénéfice net annuel</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FILIÈRES ══ -->
+<section class="filieres-section">
+  <div class="container">
+    <div class="reveal" style="text-align:center;">
+      <div class="eyebrow" style="display:inline-block;text-align:left;">5 filières couvertes</div>
+      <h2 class="section-title">Une filière pour <em>chaque profil.</em></h2>
+      <p class="section-sub" style="margin:0 auto;">Peu importe ton budget, ton espace disponible, ou le temps que tu veux y consacrer — il y a une filière faite pour toi.</p>
+    </div>
+    <div class="filieres-grid reveal">
+      <div class="filiere-card">
+        <span class="filiere-icon">🐔</span>
+        <div class="filiere-name">Aviculture</div>
+        <div class="filiere-kpis">
+          <div class="filiere-kpi">Capital : <span>dès 150 000 FCFA</span></div>
+          <div class="filiere-kpi">Cycle : <span>45 jours</span></div>
+          <div class="filiere-kpi">ROI : <span>25 – 50%</span></div>
+        </div>
+        <span class="filiere-badge best">1er choix débutant</span>
+      </div>
+      <div class="filiere-card">
+        <span class="filiere-icon">🥬</span>
+        <div class="filiere-name">Maraîchage</div>
+        <div class="filiere-kpis">
+          <div class="filiere-kpi">Capital : <span>dès 100 000 FCFA</span></div>
+          <div class="filiere-kpi">Cycle : <span>60 jours</span></div>
+          <div class="filiere-kpi">ROI : <span>30 – 80%</span></div>
+        </div>
+        <span class="filiere-badge best">Revenus réguliers</span>
+      </div>
+      <div class="filiere-card">
+        <span class="filiere-icon">🌱</span>
+        <div class="filiere-name">Champignons</div>
+        <div class="filiere-kpis">
+          <div class="filiere-kpi">Capital : <span>dès 50 000 FCFA</span></div>
+          <div class="filiere-kpi">Cycle : <span>35 jours</span></div>
+          <div class="filiere-kpi">ROI : <span>50 – 100%</span></div>
+        </div>
+        <span class="filiere-badge good">Petit budget</span>
+      </div>
+      <div class="filiere-card">
+        <span class="filiere-icon">🍯</span>
+        <div class="filiere-name">Apiculture</div>
+        <div class="filiere-kpis">
+          <div class="filiere-kpi">Capital : <span>dès 100 000 FCFA</span></div>
+          <div class="filiere-kpi">Cycle : <span>6 – 12 mois</span></div>
+          <div class="filiere-kpi">ROI : <span>60 – 150%/an</span></div>
+        </div>
+        <span class="filiere-badge good">Revenu passif</span>
+      </div>
+      <div class="filiere-card">
+        <span class="filiere-icon">🐟</span>
+        <div class="filiere-name">Pisciculture</div>
+        <div class="filiere-kpis">
+          <div class="filiere-kpi">Capital : <span>dès 300 000 FCFA</span></div>
+          <div class="filiere-kpi">Cycle : <span>5 mois</span></div>
+          <div class="filiere-kpi">ROI : <span>40 – 60%</span></div>
+        </div>
+        <span class="filiere-badge good">Capital moyen</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TÉMOIGNAGES ══ -->
+<section class="temoignages">
+  <div class="container">
+    <div class="reveal" style="text-align:center;">
+      <div class="eyebrow" style="display:inline-block;text-align:left;">Ils ont sauté le pas</div>
+      <h2 class="section-title">Des gens <em>comme toi.</em><br/>Des résultats bien réels.</h2>
+    </div>
+    <div class="temoignages-grid reveal">
+      <div class="temoignage-card">
+        <div class="tem-profile">
+          <div class="tem-avatar" style="background:var(--vert);">MD</div>
+          <div>
+            <div class="tem-name">Moussa Diallo</div>
+            <div class="tem-role">Fonctionnaire, investisseur avicole</div>
+            <div class="tem-loc">📍 Dakar, Sénégal</div>
+          </div>
+        </div>
+        <div class="tem-stars">★★★★★</div>
+        <div class="tem-text">"J'avais peur de perdre mon argent parce que je n'y connaissais rien en élevage. Le guide m'a appris à trouver un bon partenaire, à faire signer un contrat, et à suivre sans être sur place tous les jours. Mon premier cycle s'est très bien passé."</div>
+        <div class="tem-result">🐔 380 000 FCFA de bénéfice — 200 poulets, 45 jours</div>
+      </div>
+      <div class="temoignage-card">
+        <div class="tem-profile">
+          <div class="tem-avatar" style="background:#2471A3;">NK</div>
+          <div>
+            <div class="tem-name">Nafi Koné</div>
+            <div class="tem-role">Commerçante, investisseuse maraîchage</div>
+            <div class="tem-loc">📍 Abidjan, Côte d'Ivoire</div>
+          </div>
+        </div>
+        <div class="tem-stars">★★★★★</div>
+        <div class="tem-text">"Ce qui m'a convaincue c'est le calculateur Excel. J'ai mis mes chiffres dedans et j'ai vu exactement ce que j'allais gagner avant même de commencer. Ça m'a donné la confiance pour me lancer. Maintenant j'ai 3 parcelles."</div>
+        <div class="tem-result">🥬 3 parcelles actives · Revenu mensuel régulier</div>
+      </div>
+      <div class="temoignage-card">
+        <div class="tem-profile">
+          <div class="tem-avatar" style="background:var(--terre);">SO</div>
+          <div>
+            <div class="tem-name">Seydou Ouédraogo</div>
+            <div class="tem-role">Enseignant, producteur de champignons</div>
+            <div class="tem-loc">📍 Ouagadougou, Burkina Faso</div>
+          </div>
+        </div>
+        <div class="tem-stars">★★★★★</div>
+        <div class="tem-text">"Je n'avais pas de terrain, pas de capital important, et pas de temps à consacrer tous les jours. Les champignons correspondaient exactement à ma situation. Ce guide m'a donné toutes les étapes sans me noyer dans les détails techniques inutiles."</div>
+        <div class="tem-result">🌱 45 000 FCFA bénéfice net / cycle · 87 000 FCFA investis</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ OFFRES ══ -->
+<section class="offres-section" id="offres">
+  <div class="container">
+    <div class="reveal" style="text-align:center;">
+      <div class="eyebrow" style="display:inline-block;text-align:left;">Choisir ton offre</div>
+      <h2 class="section-title">Un seul investissement.<br/><em>Des revenus pour longtemps.</em></h2>
+      <p class="section-sub" style="margin:0 auto;">Moins cher qu'un sac d'aliments pour poulets. Des connaissances qui te serviront sur chaque cycle, chaque année.</p>
+    </div>
+
+    <div class="pricing-grid reveal">
+      <div class="pricing-card">
+        <div class="pricing-name">Standard</div>
+        <div class="pricing-original">8 000 FCFA</div>
+        <div class="pricing-price-row">
+          <span class="pricing-amount">5 000</span>
+          <span class="pricing-currency">FCFA</span>
+        </div>
+        <div class="pricing-save">Économise 3 000 FCFA</div>
+        <div class="pricing-divider"></div>
+        <div class="pricing-features">
+          <div class="pricing-feature bold"><span class="chk">✓</span> Guide complet PDF — 35 pages</div>
+          <div class="pricing-feature"><span class="chk">✓</span> 7 chapitres de contenu terrain</div>
+          <div class="pricing-feature"><span class="chk">✓</span> 3 cas réels africains avec chiffres</div>
+          <div class="pricing-feature"><span class="chk">✓</span> Guide des 5 maladies avicoles</div>
+          <div class="pricing-feature"><span class="chk">✓</span> Calendrier agricole saison sèche/pluies</div>
+          <div class="pricing-feature"><span class="chk">✓</span> FAQ — 15 vraies questions débutants</div>
+          <div class="pricing-feature"><span class="chk">✓</span> Plan d'action 90 jours détaillé</div>
+          <div class="pricing-feature"><span class="chk">✓</span> Livraison instantanée</div>
+        </div>
+        <a href="https://shop.learn-and-earn.site/prd_9pdvl7ls/checkout" class="btn-pricing vert">Prendre le Standard →</a>
+        <div class="payment-icons">
+          <span class="pay-pill wave">Wave</span>
+          <span class="pay-pill orange">Orange Money</span>
+          <span class="pay-pill mtn">MTN Money</span>
+        </div>
+      </div>
+
+      <div class="pricing-card featured">
+        <div class="pricing-top-badge">⭐ Le plus complet</div>
+        <div class="pricing-name">Premium</div>
+        <div class="pricing-original">12 000 FCFA</div>
+        <div class="pricing-price-row">
+          <span class="pricing-amount">8 000</span>
+          <span class="pricing-currency">FCFA</span>
+        </div>
+        <div class="pricing-save">Économise 4 000 FCFA</div>
+        <div class="pricing-divider"></div>
+        <div class="pricing-features">
+          <div class="pricing-feature bold"><span class="chk">✓</span> Guide complet PDF — 35 pages</div>
+          <div class="pricing-feature"><span class="chk">✓</span> 7 chapitres de contenu terrain</div>
+          <div class="pricing-feature"><span class="chk">✓</span> 3 cas réels africains avec chiffres</div>
+          <div class="pricing-feature"><span class="chk">✓</span> Guide des 5 maladies avicoles</div>
+          <div class="pricing-feature"><span class="chk">✓</span> Calendrier agricole complet</div>
+          <div class="pricing-feature"><span class="chk">✓</span> FAQ — 15 vraies questions débutants</div>
+          <div class="pricing-feature bold"><span class="chk">✓</span> Calculateur Excel — 6 feuilles 📊</div>
+          <div class="pricing-feature bold"><span class="chk">✓</span> Projection 12 mois automatique 📈</div>
+          <div class="pricing-feature"><span class="chk">✓</span> Livraison instantanée</div>
+        </div>
+        <a href="https://shop.learn-and-earn.site/prd_h3wulgjd/checkout" class="btn-pricing or">🌾 Prendre le Premium →</a>
+        <div class="payment-icons">
+          <span class="pay-pill wave">Wave</span>
+          <span class="pay-pill orange">Orange Money</span>
+          <span class="pay-pill mtn">MTN Money</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="bonus-timer-block reveal">
+      <div class="timer-icon">🎁</div>
+      <div class="timer-info">
+        <div class="timer-title">Offre de lancement — 50 premiers acheteurs</div>
+        <div class="timer-sub">Standard ET Premium : les 50 premiers reçoivent gratuitement <strong style="color:var(--or-c);">le modèle de contrat investisseur-producteur prêt à utiliser</strong>. Après ça, vendu séparément.</div>
+      </div>
+      <div class="timer-blocks">
+        <div class="timer-block"><span class="timer-num" id="th">71</span><div class="timer-lbl">Heures</div></div>
+        <div class="timer-block"><span class="timer-num" id="tm">59</span><div class="timer-lbl">Min</div></div>
+        <div class="timer-block"><span class="timer-num" id="ts">59</span><div class="timer-lbl">Sec</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FAQ ══ -->
+<section class="faq-section">
+  <div class="container">
+    <div class="reveal" style="text-align:center;">
+      <div class="eyebrow" style="display:inline-block;text-align:left;">Questions fréquentes</div>
+      <h2 class="section-title">Tu hésites encore ?<br/><em>Voilà les réponses.</em></h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">Peut-on investir sans avoir de terrain ?<div class="faq-chev">+</div></button>
+        <div class="faq-a">Oui, c'est même le modèle recommandé dans ce guide. Tu loues un terrain à la semaine ou au cycle, ou tu t'associes avec un propriétaire terrien qui apporte le terrain et toi le capital. Pas besoin de posséder quoi que ce soit pour commencer.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">Combien de temps par semaine faut-il consacrer à son investissement ?<div class="faq-chev">+</div></button>
+        <div class="faq-a">En déléguant la production à un partenaire terrain, 2 à 3 heures par semaine suffisent. Une visite le weekend et quelques échanges WhatsApp. Ce n'est pas un deuxième emploi — c'est un investissement supervisé.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">Et si mon partenaire éleveur disparaît avec l'argent ?<div class="faq-chev">+</div></button>
+        <div class="faq-a">C'est exactement pourquoi le guide inclut un modèle de contrat investisseur-producteur avec les 8 clauses essentielles. Et pourquoi on recommande de verser le capital en 3 tranches — jamais tout d'un coup. Si quelque chose tourne mal, tu limites ta perte au dernier versement.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">Ce guide est-il adapté à tous les pays africains ?<div class="faq-chev">+</div></button>
+        <div class="faq-a">Les principes de l'agri-business sont universels. Les exemples chiffrés sont tirés du Sénégal, de la Côte d'Ivoire et du Cameroun, mais les filières, les méthodes et les stratégies fonctionnent dans toute l'Afrique francophone. Le calculateur Excel te permet d'adapter les chiffres à ton pays.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">Quelle est la différence entre le Standard et le Premium ?<div class="faq-chev">+</div></button>
+        <div class="faq-a">Le Standard contient le guide complet de 35 pages avec tout le contenu. Le Premium ajoute le calculateur Excel avec 6 feuilles interconnectées — tu entres ton budget, il calcule automatiquement ton bénéfice estimé, ton ROI et ta projection sur 12 mois pour les 3 filières. Pour 3 000 FCFA de plus, c'est clairement le meilleur choix.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">Comment vais-je recevoir le guide après paiement ?<div class="faq-chev">+</div></button>
+        <div class="faq-a">La livraison est instantanée. Dès la confirmation de ton paiement, tu reçois le lien de téléchargement par WhatsApp ou email selon ce que tu indiques lors de la commande. Tu peux commencer à lire dans les 5 minutes.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">Et si ça ne me convient pas ?<div class="faq-chev">+</div></button>
+        <div class="faq-a">Garantie satisfait ou remboursé 7 jours. Si après lecture tu estimes que ça ne vaut pas ce que tu as payé, tu envoies un message et tu es remboursé intégralement. Sans justification, sans délai. Tu ne prends aucun risque.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ GARANTIE ══ -->
+<section class="garantie">
+  <div class="container">
+    <div class="garantie-icon">🛡️</div>
+    <h2 class="garantie-title">Garantie 7 jours — Zéro risque</h2>
+    <p class="garantie-text">Tu lis le guide. Si tu n'es pas convaincu que les connaissances valent largement ce que tu as payé, tu envoies un message et tu es remboursé intégralement. Pas de formulaire compliqué. Pas de condition. Juste un message.</p>
+  </div>
+</section>
+
+<!-- ══ FINAL CTA ══ -->
+<section class="final-cta">
+  <h2 class="final-cta-title">Ton argent peut commencer<br/>à travailler <span>dès cette semaine.</span></h2>
+  <p class="final-cta-sub">Dans 45 jours, quelqu'un qui a acheté ce guide aujourd'hui encaissera son premier bénéfice agricole. Ce quelqu'un pourrait être toi.</p>
+  <div class="final-cta-btns">
+    <a href="https://shop.learn-and-earn.site/prd_h3wulgjd/checkout" class="btn-gold" style="font-size:18px;padding:22px 52px;">🌾 Je commence maintenant — 8 000 FCFA</a>
+    <a href="https://shop.learn-and-earn.site/prd_9pdvl7ls/checkout" class="btn-ghost">Ou commencer avec le Standard — 5 000 FCFA</a>
+    <p class="final-note">🔒 Paiement sécurisé · Livraison instantanée · Garanti 7 jours</p>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="container">
+    <p>© 2026 <strong>Learn and Earn — Digital Solution</strong>. Tous droits réservés.</p>
+    <p style="margin-top:6px;font-size:11px;">Ce produit est un guide numérique. Les résultats varient selon l'effort, le partenaire terrain et les conditions locales.</p>
+    <div class="footer-links">
+      <a href="#">Politique de confidentialité</a>
+      <a href="#">Conditions générales</a>
+      <a href="#">Mentions légales</a>
+      <a href="mailto:contact@learnandearn.com">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<!-- STICKY MOBILE -->
+<div class="sticky-mob">
+  <div class="sticky-mob-txt">
+    <strong>Guide Agri-Business 2026</strong>
+    <span>À partir de 5 000 FCFA · Livraison instantanée</span>
+  </div>
+  <a href="#offres" class="btn-gold" style="font-size:13px;padding:12px 18px;white-space:nowrap;animation:btn-shine 3s linear infinite;">Commander →</a>
+</div>
+
+<script>
+// ── SIMULATEUR BUDGET
+function showSim(btn, id) {
+  document.querySelectorAll('.sim-tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  ['s200','s500','s1000'].forEach(d => {
+    document.getElementById(d).style.display = d === id ? 'block' : 'none';
+  });
+}
+
+// ── FAQ
+function toggleFaq(btn) {
+  const item = btn.parentElement;
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+
+// ── COUNTDOWN
+(function() {
+  let total = 72 * 3600 - 1;
+  const h = document.getElementById('th');
+  const m = document.getElementById('tm');
+  const s = document.getElementById('ts');
+  setInterval(() => {
+    if (total <= 0) return;
+    total--;
+    h.textContent = String(Math.floor(total/3600)).padStart(2,'0');
+    m.textContent = String(Math.floor((total%3600)/60)).padStart(2,'0');
+    s.textContent = String(total%60).padStart(2,'0');
+  }, 1000);
+})();
+
+// ── SCROLL REVEAL
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); } });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+// ── SMOOTH SCROLL
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const t = document.querySelector(a.getAttribute('href'));
+    if(t) { e.preventDefault(); t.scrollIntoView({ behavior:'smooth', block:'start' }); }
+  });
+});
+</script>
+
+<!-- ══ SOCIAL PROOF POPUP ══ -->
+<style>
+  #sp-popup {
+    position: fixed;
+    bottom: 28px;
+    left: 24px;
+    z-index: 9999;
+    max-width: 320px;
+    min-width: 280px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.14), 0 2px 8px rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    border-left: 4px solid #1A5C2A;
+    transform: translateX(-120%);
+    opacity: 0;
+    transition: transform 0.45s cubic-bezier(0.34,1.56,0.64,1), opacity 0.35s ease;
+    font-family: 'Outfit', sans-serif;
+    pointer-events: none;
+  }
+  #sp-popup.sp-visible { transform: translateX(0); opacity: 1; pointer-events: auto; }
+  #sp-popup.sp-hiding { transform: translateX(-120%); opacity: 0; transition: transform 0.35s ease-in, opacity 0.28s ease-in; }
+  .sp-avatar { width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 800; color: white; flex-shrink: 0; position: relative; }
+  .sp-avatar-flag { position: absolute; bottom: -2px; right: -2px; font-size: 13px; background: white; border-radius: 50%; width: 18px; height: 18px; display: flex; align-items: center; justify-content: center; box-shadow: 0 1px 4px rgba(0,0,0,0.15); }
+  .sp-content { flex: 1; min-width: 0; }
+  .sp-name { font-size: 13px; font-weight: 800; color: #1A1A1A; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px; }
+  .sp-action { font-size: 12px; color: #444; line-height: 1.4; }
+  .sp-action .sp-pack-std { font-weight: 700; color: #1A5C2A; background: #EBF5EE; padding: 1px 6px; border-radius: 4px; font-size: 11px; }
+  .sp-action .sp-pack-prem { font-weight: 700; color: #7B5800; background: #FEF3DC; padding: 1px 6px; border-radius: 4px; font-size: 11px; }
+  .sp-time { font-size: 11px; color: #999; margin-top: 3px; display: flex; align-items: center; gap: 4px; }
+  .sp-time::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: #2ecc71; display: inline-block; animation: sp-pulse 1.8s infinite; }
+  @keyframes sp-pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.4;transform:scale(1.3)} }
+  .sp-badge { position: absolute; top: -8px; right: -8px; background: #B83227; color: white; font-size: 9px; font-weight: 800; padding: 2px 7px; border-radius: 8px; letter-spacing: 0.5px; text-transform: uppercase; white-space: nowrap; }
+  .sp-close { position: absolute; top: 8px; right: 10px; background: none; border: none; color: #ccc; font-size: 14px; cursor: pointer; line-height: 1; padding: 2px; transition: color 0.2s; }
+  .sp-close:hover { color: #999; }
+  .sp-progress { position: absolute; bottom: 0; left: 0; height: 3px; background: linear-gradient(90deg, #1A5C2A, #2E8044); border-radius: 0 0 0 16px; width: 100%; transform-origin: left; animation: sp-prog 10s linear; }
+  @keyframes sp-prog { from{transform:scaleX(1)} to{transform:scaleX(0)} }
+  @media(max-width:640px) {
+    #sp-popup { bottom: 160px; left: 12px; max-width: 260px; min-width: unset; padding: 10px 12px; gap: 9px; }
+    #sp-popup .sp-avatar { width: 36px; height: 36px; font-size: 13px; }
+    #sp-popup .sp-name { font-size: 12px; }
+    #sp-popup .sp-action { font-size: 11px; }
+    #sp-popup .sp-time { font-size: 10px; }
+    #sp-popup .sp-badge { font-size: 8px; padding: 2px 5px; }
+  }
+</style>
+
+<div id="sp-popup" role="alert" aria-live="polite">
+  <div class="sp-avatar" id="sp-av">M</div>
+  <div class="sp-content">
+    <div class="sp-name" id="sp-nm">Moussa Konaté</div>
+    <div class="sp-action" id="sp-ac">a acheté le <span class="sp-pack-prem">Pack Premium</span></div>
+    <div class="sp-time" id="sp-tm">il y a 3 minutes</div>
+  </div>
+  <div class="sp-badge">Achat vérifié</div>
+  <button class="sp-close" onclick="spClose()" aria-label="Fermer">✕</button>
+  <div class="sp-progress" id="sp-prog"></div>
+</div>
+
+<script>
+(function() {
+  var proofs = [
+    { name:"Moussa Konaté",      flag:"🇨🇮", ini:"MK", pack:"Premium",  time:"3 minutes" },
+    { name:"Aminata Diop",       flag:"🇸🇳", ini:"AD", pack:"Standard", time:"7 minutes" },
+    { name:"Ibrahima Baldé",     flag:"🇬🇳", ini:"IB", pack:"Premium",  time:"11 minutes" },
+    { name:"Fatoumata Traoré",   flag:"🇲🇱", ini:"FT", pack:"Standard", time:"15 minutes" },
+    { name:"Koffi Assieman",     flag:"🇨🇮", ini:"KA", pack:"Premium",  time:"19 minutes" },
+    { name:"Ousmane Sall",       flag:"🇸🇳", ini:"OS", pack:"Premium",  time:"24 minutes" },
+    { name:"Mariama Diallo",     flag:"🇬🇳", ini:"MD", pack:"Standard", time:"28 minutes" },
+    { name:"Seydou Ouédraogo",   flag:"🇧🇫", ini:"SO", pack:"Premium",  time:"33 minutes" },
+    { name:"Bintou Coulibaly",   flag:"🇲🇱", ini:"BC", pack:"Standard", time:"38 minutes" },
+    { name:"Adjoua Kouassi",     flag:"🇨🇮", ini:"AK", pack:"Premium",  time:"43 minutes" },
+    { name:"Abdoulaye Cissé",    flag:"🇲🇱", ini:"AC", pack:"Standard", time:"49 minutes" },
+    { name:"Rokiatou Barry",     flag:"🇬🇳", ini:"RB", pack:"Premium",  time:"54 minutes" },
+    { name:"Cheikh Ndoye",       flag:"🇸🇳", ini:"CN", pack:"Standard", time:"59 minutes" },
+    { name:"Nafi Sawadogo",      flag:"🇧🇫", ini:"NS", pack:"Premium",  time:"1 heure" },
+    { name:"Lamine Touré",       flag:"🇸🇳", ini:"LT", pack:"Standard", time:"1h 08 min" },
+  ];
+  var avatarColors = ["1A5C2A","C8860A","7B3F1A","2471A3","6C3483","117A65","784212","1B2631","8B4513","2E8044"];
+  var idx = 0, closed = false, timer = null, switcher = null;
+
+  function show(i) {
+    if (closed) return;
+    var p = proofs[i % proofs.length];
+    var pop = document.getElementById("sp-popup");
+    var av = document.getElementById("sp-av");
+    var nm = document.getElementById("sp-nm");
+    var ac = document.getElementById("sp-ac");
+    var tm = document.getElementById("sp-tm");
+    var pg = document.getElementById("sp-prog");
+
+    av.textContent = p.ini;
+    av.style.background = "linear-gradient(135deg,#" + avatarColors[i % avatarColors.length] + ",#" + avatarColors[(i+3) % avatarColors.length] + ")";
+
+    var fl = av.querySelector('.sp-avatar-flag');
+    if (!fl) { fl = document.createElement('span'); fl.className = 'sp-avatar-flag'; av.appendChild(fl); }
+    fl.textContent = p.flag;
+
+    nm.textContent = p.name;
+    var cls = p.pack === "Premium" ? "sp-pack-prem" : "sp-pack-std";
+    ac.innerHTML = 'a achet\u00e9 le <span class="' + cls + '">Pack ' + p.pack + '</span>';
+    tm.textContent = 'il y a ' + p.time;
+
+    pg.style.animation = 'none';
+    pg.offsetHeight;
+    pg.style.animation = 'sp-prog 10s linear';
+
+    pop.classList.remove("sp-hiding");
+    pop.classList.add("sp-visible");
+  }
+
+  function cycle() {
+    if (closed) return;
+    var pop = document.getElementById("sp-popup");
+    pop.classList.add("sp-hiding");
+    pop.classList.remove("sp-visible");
+    switcher = setTimeout(function() {
+      if (closed) return;
+      idx = (idx + 1) % proofs.length;
+      show(idx);
+    }, 600);
+  }
+
+  window.spClose = function() {
+    closed = true;
+    clearInterval(timer);
+    clearTimeout(switcher);
+    var pop = document.getElementById("sp-popup");
+    pop.classList.add("sp-hiding");
+    pop.classList.remove("sp-visible");
+  };
+
+  setTimeout(function() {
+    idx = Math.floor(Math.random() * proofs.length);
+    show(idx);
+    timer = setInterval(cycle, 10000);
+  }, 3000);
+})();
+</script>
+<!-- ══ FIN SOCIAL PROOF ══ -->
+
+<!-- ══ ASSISTANT IA ══ -->
+<style>
+  #ai-fab { position:fixed; bottom:90px; right:24px; width:58px; height:58px; background:linear-gradient(135deg,#1A5C2A,#2E8044); border-radius:50%; display:flex; align-items:center; justify-content:center; cursor:pointer; box-shadow:0 8px 28px rgba(26,92,42,0.45); z-index:1000; border:none; transition:transform 0.2s,box-shadow 0.2s; animation:ai-pulse 2.5s 4s ease infinite; }
+  @keyframes ai-pulse { 0%,100%{box-shadow:0 8px 28px rgba(26,92,42,0.45)} 50%{box-shadow:0 8px 44px rgba(26,92,42,0.7)} }
+  #ai-fab:hover { transform:scale(1.1); }
+  #ai-fab svg { width:26px; height:26px; fill:white; }
+  #ai-fab-lbl { position:fixed; bottom:156px; right:24px; background:#1A5C2A; color:white; font-family:'Outfit',sans-serif; font-size:12px; font-weight:700; padding:6px 13px; border-radius:20px; z-index:1000; white-space:nowrap; box-shadow:0 4px 14px rgba(0,0,0,0.15); pointer-events:none; animation:fadeInLbl 0.5s 4.5s both; }
+  @keyframes fadeInLbl { from{opacity:0;transform:translateY(5px)} to{opacity:1;transform:translateY(0)} }
+  #ai-fab-lbl::after { content:""; position:absolute; bottom:-6px; right:18px; border:6px solid transparent; border-top-color:#1A5C2A; border-bottom:none; }
+  #ai-win { position:fixed; bottom:90px; right:24px; width:355px; max-height:560px; background:white; border-radius:20px; box-shadow:0 24px 72px rgba(0,0,0,0.18); z-index:1001; display:none; flex-direction:column; overflow:hidden; border:1px solid #E2EAE3; font-family:'Outfit',sans-serif; }
+  #ai-win.open { display:flex; animation:slideUp 0.3s ease; }
+  @keyframes slideUp { from{opacity:0;transform:translateY(18px)} to{opacity:1;transform:translateY(0)} }
+  .ai-hdr { background:linear-gradient(135deg,#1A5C2A,#2E8044); padding:14px 18px; display:flex; align-items:center; gap:12px; flex-shrink:0; }
+  .ai-hdr-av { width:38px; height:38px; background:rgba(255,255,255,0.2); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0; }
+  .ai-hdr-info { flex:1; }
+  .ai-hdr-name { color:white; font-weight:800; font-size:14px; }
+  .ai-hdr-status { color:rgba(255,255,255,0.7); font-size:11px; display:flex; align-items:center; gap:4px; margin-top:2px; }
+  .ai-dot-g { width:6px; height:6px; background:#2ecc71; border-radius:50%; }
+  .ai-close-btn { background:rgba(255,255,255,0.15); border:none; cursor:pointer; color:white; font-size:15px; width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; transition:background 0.2s; }
+  .ai-close-btn:hover { background:rgba(255,255,255,0.28); }
+  .ai-msgs { flex:1; overflow-y:auto; padding:14px; display:flex; flex-direction:column; gap:12px; background:#F7F9F7; }
+  .ai-msg { display:flex; gap:8px; align-items:flex-end; animation:msgIn 0.3s ease; }
+  @keyframes msgIn { from{opacity:0;transform:translateY(7px)} to{opacity:1;transform:translateY(0)} }
+  .ai-msg.user { flex-direction:row-reverse; }
+  .ai-msg-av { width:27px; height:27px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:12px; flex-shrink:0; font-weight:700; }
+  .ai-msg-av.bot { background:#1A5C2A; color:white; }
+  .ai-msg-av.usr { background:#C8860A; color:#0E1A10; }
+  .ai-bubble { max-width:82%; padding:10px 14px; border-radius:15px; font-size:13px; line-height:1.65; color:#222; }
+  .ai-msg.bot .ai-bubble { background:white; border:1px solid #E2EAE3; border-bottom-left-radius:4px; box-shadow:0 2px 6px rgba(0,0,0,0.04); }
+  .ai-msg.user .ai-bubble { background:#1A5C2A; color:white; border-bottom-right-radius:4px; }
+  .ai-sugg { padding:8px 14px; display:flex; flex-wrap:wrap; gap:6px; background:#F7F9F7; border-top:1px solid #E2EAE3; flex-shrink:0; }
+  .ai-sugg-btn { background:white; border:1.5px solid #1A5C2A; color:#1A5C2A; font-family:'Outfit',sans-serif; font-size:11px; font-weight:700; padding:4px 11px; border-radius:100px; cursor:pointer; transition:all 0.2s; white-space:nowrap; }
+  .ai-sugg-btn:hover { background:#1A5C2A; color:white; }
+  .ai-input-area { padding:11px 14px; display:flex; gap:8px; background:white; border-top:1px solid #E2EAE3; flex-shrink:0; align-items:center; }
+  .ai-inp { flex:1; border:1.5px solid #E2EAE3; border-radius:22px; padding:9px 14px; font-family:'Outfit',sans-serif; font-size:13px; outline:none; transition:border-color 0.2s; resize:none; max-height:76px; overflow-y:auto; line-height:1.4; }
+  .ai-inp:focus { border-color:#1A5C2A; }
+  .ai-send { width:36px; height:36px; background:linear-gradient(135deg,#1A5C2A,#2E8044); border:none; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center; flex-shrink:0; transition:transform 0.2s; }
+  .ai-send:hover { transform:scale(1.1); }
+  .ai-send svg { width:15px; height:15px; fill:white; }
+  .ai-typing { display:flex; gap:4px; align-items:center; padding:9px 13px; background:white; border:1px solid #E2EAE3; border-radius:15px; border-bottom-left-radius:4px; width:fit-content; }
+  .ai-typing span { width:6px; height:6px; background:#1A5C2A; border-radius:50%; animation:ty 1.2s infinite; opacity:0.4; }
+  .ai-typing span:nth-child(2){animation-delay:0.2s} .ai-typing span:nth-child(3){animation-delay:0.4s}
+  @keyframes ty { 0%,100%{opacity:0.4;transform:translateY(0)} 50%{opacity:1;transform:translateY(-4px)} }
+  .ai-cta { display:inline-block; padding:7px 14px; border-radius:8px; font-weight:800; font-size:12px; text-decoration:none; margin-top:8px; margin-right:6px; transition:transform 0.2s; cursor:pointer; }
+  .ai-cta:hover { transform:translateY(-2px); }
+  .ai-cta.std { background:#EBF5EE; color:#1A5C2A; border:1.5px solid #1A5C2A; }
+  .ai-cta.prem { background:linear-gradient(135deg,#C8860A,#F0A820); color:#0E1A10; }
+  @media(max-width:640px) { #ai-win{width:calc(100vw - 28px);right:14px;bottom:80px;} #ai-fab{bottom:80px;right:16px;} #ai-fab-lbl{bottom:148px;right:16px;} }
+</style>
+
+<div id="ai-fab-lbl">🌾 Une question ?</div>
+<button id="ai-fab" onclick="toggleAI()" aria-label="Assistant">
+  <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg>
+</button>
+
+<div id="ai-win">
+  <div class="ai-hdr">
+    <div class="ai-hdr-av">🌾</div>
+    <div class="ai-hdr-info">
+      <div class="ai-hdr-name">Assistant Agri-Business</div>
+      <div class="ai-hdr-status"><div class="ai-dot-g"></div>En ligne · Répond instantanément</div>
+    </div>
+    <button class="ai-close-btn" onclick="toggleAI()">✕</button>
+  </div>
+  <div class="ai-msgs" id="ai-msgs"></div>
+  <div class="ai-sugg" id="ai-sugg">
+    <button class="ai-sugg-btn" onclick="aiSend(this.textContent)">Standard ou Premium ?</button>
+    <button class="ai-sugg-btn" onclick="aiSend(this.textContent)">Comment payer ?</button>
+    <button class="ai-sugg-btn" onclick="aiSend(this.textContent)">Livraison rapide ?</button>
+    <button class="ai-sugg-btn" onclick="aiSend(this.textContent)">C'est pour débutants ?</button>
+  </div>
+  <div class="ai-input-area">
+    <textarea class="ai-inp" id="ai-inp" placeholder="Pose ta question..." rows="1"></textarea>
+    <button class="ai-send" onclick="aiSendMsg()"><svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg></button>
+  </div>
+</div>
+
+<script>
+(function(){
+  var SL = "https://shop.learn-and-earn.site/prd_9pdvl7ls/checkout";
+  var PL = "https://shop.learn-and-earn.site/prd_h3wulgjd/checkout";
+  var open = false, init = false;
+
+  var KB = [
+    { keys:["diff","standard","premium","choisir","offre","entre les deux"],
+      ans:"Voici les deux offres :<br><br><b>🌾 Standard — 5 000 FCFA</b><br>Le guide complet 35 pages : 7 chapitres, budgets détaillés, cas réels, guide maladies, calendrier agricole, FAQ et plan 90 jours.<br><br><b>⭐ Premium — 8 000 FCFA</b><br>Tout le Standard + le <b>Calculateur Excel</b> avec 6 feuilles interconnectées — tu entres ton budget, il calcule ton bénéfice et ta projection 12 mois automatiquement.<br><br>Pour 3 000 FCFA de plus, le Premium est clairement le meilleur choix.<br><br><a href='"+SL+"' class='ai-cta std' target='_blank'>Prendre le Standard</a><a href='"+PL+"' class='ai-cta prem' target='_blank'>⭐ Prendre le Premium</a>" },
+    { keys:["payer","wave","orange","mtn","carte","paiement"],
+      ans:"Tu peux payer avec :<br><br>💙 <b>Wave</b><br>🟠 <b>Orange Money</b><br>🟡 <b>MTN Money</b><br>💳 <b>Carte bancaire</b><br><br>Tu choisis ton mode de paiement directement sur la page de commande.<br><br><a href='"+SL+"' class='ai-cta std' target='_blank'>Standard — 5 000 FCFA</a><a href='"+PL+"' class='ai-cta prem' target='_blank'>⭐ Premium — 8 000 FCFA</a>" },
+    { keys:["livraison","recevoir","quand","télécharger","récup"],
+      ans:"La livraison est <b>instantanée</b> ✅<br><br>Dès ton paiement confirmé, tu reçois le lien de téléchargement par <b>WhatsApp ou email</b>. Tu peux commencer à lire en moins de 5 minutes." },
+    { keys:["garanti","rembours","satisfait","risque"],
+      ans:"Tu es protégé par une <b>garantie satisfait ou remboursé 7 jours</b> 🛡️<br><br>Si le guide ne te convient pas, un message suffit et tu es remboursé <b>intégralement</b>. Sans condition, sans délai." },
+    { keys:["terrain","j'ai pas","sans terrain","pas de terrain"],
+      ans:"Pas besoin de terrain ! <br><br>Le guide explique comment <b>louer un terrain au cycle</b> ou s'associer avec un propriétaire terrien. C'est même le modèle recommandé pour débuter — tu investis le capital, quelqu'un d'autre apporte la terre." },
+    { keys:["partenaire","arnaque","fiable","confiance","contrat"],
+      ans:"C'est une question essentielle — et le guide y répond en détail.<br><br>Tu trouveras :<br>• Comment sélectionner un éleveur fiable étape par étape<br>• Les <b>signaux d'alarme</b> à fuir absolument<br>• Le <b>modèle de contrat</b> investisseur-producteur avec les 8 clauses essentielles<br>• La stratégie de versement en 3 tranches pour limiter le risque" },
+    { keys:["débutant","experience","jamais","commencer","zéro","connais pas"],
+      ans:"Le guide est fait <b>exactement pour toi</b> 🌾<br><br>Pas besoin d'expérience agricole. Pas besoin de connaître l'élevage. Le Chapitre 1 explique tout depuis les bases — et le plan d'action 90 jours te guide pas à pas de la décision jusqu'au premier bénéfice." },
+    { keys:["calculateur","excel","chiffres","rentabilité","combien"],
+      ans:"Le <b>Calculateur Excel</b> est inclus dans l'offre Premium. Il contient 6 feuilles :<br><br>🐔 Aviculture (3 scénarios : 200/500/1000 poulets)<br>🥬 Maraîchage (3 superficies)<br>🌱 Champignons<br>📈 Comparaison des 3 filières<br>📅 Projection 12 mois avec réinvestissement automatique<br><br>Tu entres ton budget, il calcule tout automatiquement.<br><br><a href='"+PL+"' class='ai-cta prem' target='_blank'>⭐ Prendre le Premium — 8 000 FCFA</a>" },
+    { keys:["prix","combien","fcfa","coût","tarif","5000","8000"],
+      ans:"Le guide est disponible en deux offres :<br><br>🌾 <b>Standard — 5 000 FCFA</b> (guide complet 35 pages)<br>⭐ <b>Premium — 8 000 FCFA</b> (guide + calculateur Excel)<br><br>Moins cher qu'un sac d'aliments pour poulets — des connaissances qui te serviront sur chaque cycle.<br><br><a href='"+SL+"' class='ai-cta std' target='_blank'>Standard</a><a href='"+PL+"' class='ai-cta prem' target='_blank'>⭐ Premium</a>" },
+    { keys:["filière","aviculture","maraîchage","champignon","pisciculture","apiculture","quoi investir"],
+      ans:"Le guide couvre 5 filières selon ton profil :<br><br>🐔 <b>Aviculture</b> — dès 150 000 FCFA, 45 jours, ROI 25–50%<br>🥬 <b>Maraîchage</b> — dès 100 000 FCFA, revenus réguliers<br>🌱 <b>Champignons</b> — dès 50 000 FCFA, idéal petit budget<br>🍯 <b>Apiculture</b> — revenu passif, long terme<br>🐟 <b>Pisciculture</b> — capital moyen, forte demande<br><br>Un chapitre complet est dédié à chaque filière avec budgets détaillés." },
+    { keys:["pays","sénégal","côte d'ivoire","cameroun","mali","burkina","adapté"],
+      ans:"Le guide est adapté à <b>toute l'Afrique francophone</b>.<br><br>Les exemples chiffrés viennent du Sénégal, de la Côte d'Ivoire et du Cameroun. Les principes et méthodes fonctionnent partout. Le calculateur Excel te permet d'adapter les chiffres à ton pays et ta ville." },
+    { keys:["temps","semaine","emploi","bureau","travailler"],
+      ans:"Avec le modèle investisseur + partenaire terrain, <b>2 à 3 heures par semaine</b> suffisent.<br><br>Une visite terrain le weekend et quelques échanges WhatsApp pour les rapports. Ce n'est pas un deuxième emploi — c'est un investissement qui tourne pendant que tu fais autre chose." },
+  ];
+
+  var FALLBACK = "Bonne question ! Le guide répond à ça en détail dans ses 35 pages.<br><br>Pour en savoir plus, choisis ton offre :<br><br><a href='"+SL+"' class='ai-cta std' target='_blank'>Standard — 5 000 FCFA</a><a href='"+PL+"' class='ai-cta prem' target='_blank'>⭐ Premium — 8 000 FCFA</a>";
+  var GREET = "Bonjour ! 👋 Je suis l'assistant du guide <b>\"Agri-Business depuis Zéro\"</b>.<br><br>Je réponds à toutes tes questions sur les filières, les offres et le paiement. Qu'est-ce que tu voudrais savoir ?";
+
+  window.toggleAI = function() {
+    open = !open;
+    var win = document.getElementById("ai-win");
+    var lbl = document.getElementById("ai-fab-lbl");
+    if (open) {
+      win.classList.add("open");
+      if (lbl) lbl.style.display = "none";
+      if (!init) { init = true; setTimeout(function(){ showTyping(); setTimeout(function(){ removeTyping(); addBot(GREET); }, 900); }, 400); }
+    } else { win.classList.remove("open"); }
+  };
+
+  function addBot(html) {
+    var msgs = document.getElementById("ai-msgs");
+    var d = document.createElement("div"); d.className = "ai-msg bot";
+    d.innerHTML = '<div class="ai-msg-av bot">🌾</div><div class="ai-bubble">'+html+'</div>';
+    msgs.appendChild(d); msgs.scrollTop = msgs.scrollHeight;
+  }
+  function addUser(txt) {
+    var msgs = document.getElementById("ai-msgs");
+    var d = document.createElement("div"); d.className = "ai-msg user";
+    d.innerHTML = '<div class="ai-bubble">'+txt+'</div><div class="ai-msg-av usr">👤</div>';
+    msgs.appendChild(d); msgs.scrollTop = msgs.scrollHeight;
+  }
+  function showTyping() {
+    var msgs = document.getElementById("ai-msgs");
+    var d = document.createElement("div"); d.className = "ai-msg bot"; d.id = "ai-ty";
+    d.innerHTML = '<div class="ai-msg-av bot">🌾</div><div class="ai-typing"><span></span><span></span><span></span></div>';
+    msgs.appendChild(d); msgs.scrollTop = msgs.scrollHeight;
+  }
+  function removeTyping() { var t = document.getElementById("ai-ty"); if(t) t.remove(); }
+
+  function getReply(txt) {
+    var low = txt.toLowerCase();
+    for (var i=0; i<KB.length; i++) {
+      for (var j=0; j<KB[i].keys.length; j++) {
+        if (low.indexOf(KB[i].keys[j]) !== -1) return KB[i].ans;
+      }
+    }
+    return FALLBACK;
+  }
+
+  window.aiSendMsg = function() {
+    var inp = document.getElementById("ai-inp");
+    var txt = inp.value.trim();
+    if (!txt) return;
+    inp.value = ""; inp.style.height = "auto";
+    var sugg = document.getElementById("ai-sugg");
+    if (sugg) sugg.style.display = "none";
+    addUser(txt);
+    showTyping();
+    setTimeout(function(){ removeTyping(); addBot(getReply(txt)); }, 700 + Math.random()*500);
+  };
+
+  window.aiSend = function(txt) {
+    document.getElementById("ai-inp").value = txt;
+    window.aiSendMsg();
+  };
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var inp = document.getElementById("ai-inp");
+    if (!inp) return;
+    inp.addEventListener("keydown", function(e) {
+      if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); window.aiSendMsg(); }
+    });
+    inp.addEventListener("input", function() {
+      this.style.height = "auto";
+      this.style.height = Math.min(this.scrollHeight, 76) + "px";
+    });
+  });
+})();
+</script>
+<!-- ══ FIN ASSISTANT IA ══ -->
+
+</body>
+</html>
